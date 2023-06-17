@@ -105,7 +105,6 @@ jobs:
           context: ./frontend/
           push: true
           tags: cool5077/taski_frontend:latest
-
   build_gateway_and_push_to_docker_hub:
     name: Push gateway Docker image to DockerHub
     runs-on: ubuntu-latest
